@@ -15,7 +15,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="navbar">
-        <div className="nav-center" />
+        <div className="nav-center">
         <div className="nav-header">
           <Link to="/">
             <img src={logo} alt="beach resort" />
@@ -32,6 +32,7 @@ class Navbar extends Component {
             <Link to="/rooms">Rooms</Link>
           </li>
         </ul>
+        </div>
       </nav>
     );
   }
