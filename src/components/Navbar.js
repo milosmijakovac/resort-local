@@ -17,8 +17,8 @@ class Navbar extends Component {
   render() {
    
     return <nav className="navbar">
-<div className="nave-center"></div>
-<div className="nave-header">
+<div className="nav-center"></div>
+<div className="nav-header">
   <Link to="/">
     <img src={logo} alt="beach resort"/>
     </Link>
